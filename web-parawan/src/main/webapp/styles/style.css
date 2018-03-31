@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+    color: #070707;
+}
+
+body {
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: max-content;
+    max-width: 100vw;
+    flex: 1 1 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.parawan-header {
+    min-height: 20px;
+    color: azure;
+    background: linear-gradient(to top right, red, yellow);
+}
+
+.parawan-body {
+    background-color: floralwhite;
+    padding: 10px;
+    border-right: 2px red solid;
+    border-left: 2px red solid;
+    flex: 1 1 auto;
+}
+
+.parawan-footer {
+    text-align: right;
+    color: white;
+    background-color: black;
+    padding: 3px 10px 3px 3px;
+    flex: 0 1 auto;
+    font-size: 0.8em;
+}
+
+.beach-preview {
+    font-size: 1.2em;
+}
+
+.table td {
+    padding: 0.4rem;
+    horiz-align: center;
+    text-align: center;
+}
+.table th {
+    padding: 0.4rem;
+    horiz-align: center;
+    text-align: center;
+}
+.btn {
+    padding: 0.5rem;
+}
+
+.weather-margin {
+    margin-left: 25%;
+}
+
+.weather-margin-list {
+    margin: auto;
+    width: 17%;
+}
